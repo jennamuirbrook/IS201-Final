@@ -1,0 +1,118 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Lobster&family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF4E6;
+}
+
+/* Header Styles */
+header {
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    background-color: #FF6F61;
+    font-family: 'Pacifico', cursive; /* Cuter, playful font for the main heading */
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    font-family: 'Lobster', cursive; /* A stylish, decorative font for h1 */
+    color: #FFF4E6; /* Contrast with background */
+}
+
+/* Subheadings */
+h2 {
+    font-family: 'Quicksand', sans-serif; /* A modern, clean font for h2 */
+    font-weight: 700;
+    color: #0097B2;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Pacifico', cursive; /* Using a playful font for h3 */
+    color: #88B04B; /* Light green for subheadings */
+    margin-bottom: 15px;
+}
+
+/* Main Content Styles */
+.content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFE5D9; /* Light peachy pink color */
+    border-radius: 8px;
+    border: 2px solid #f99188; /* Adding a border for a neat effect */
+}
+
+/* Section and Text Styling */
+section {
+    margin: 40px 0;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif; /* A clean, modern sans-serif for body text */
+    color: #333333;
+    line-height: 1.6;
+}
+
+a {
+    color: #FF6F61; /* Coral color for links */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #6B5B95; /* Plum color on hover */
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a pop effect */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #FF6F61;
+    color: white;
+    font-family: 'Quicksand', sans-serif; /* Matching font for consistency */
+}
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 40px 0; /* Increased padding for larger footer */
+    background-color: #FF6F61;
+    color: white;
+    font-family: 'Quicksand', sans-serif; /* Matching font for consistency */
+}
+
+/* Button Link Styling */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em; /* Larger font size */
+    color: white;
+    background-color: #0097B2; /* Button background color */
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #FFF4E6; /* Optional border for button */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #65d7a4; /* Button color on hover */
+    color: white;
+}
